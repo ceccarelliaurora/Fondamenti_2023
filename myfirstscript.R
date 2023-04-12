@@ -19,3 +19,7 @@ plot(alessio,sherika, cex=5, col="red",pch=19, xlab="shark bite",ylab="gonorrhea
 plot(alessio,sherika, cex=5, col="red",pch=19, xlab="shark bite",ylab="gonorrhea bacterium",cex.lab=2, cex.axis=2, main="relationship between shark bite and gonorrhea")
 #correlation
 cor(alessio,sherika)
+eta<-c(22,24,22,24,23,22,32,23,26,23,28,22,25)
+summary(eta)
+etaplus <-c(22,24,22,24,23,22,32,23,26,23,28,22,25, 41,47)
+summary (etaplus)
